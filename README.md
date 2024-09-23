@@ -30,7 +30,7 @@ python deleteMachines.py --org <organization_name> --api_key <api_key> [--name <
 ### Example
 
 ```sh
-python deleteMachines.py --org myOrg --api_key myApiKey --name myDevice --authorized true
+python3 deleteMachines.py --org myOrg --api_key myApiKey --name myDevice --authorized true
 ```
 
 This will delete all authorized devices with names *containing* "myDevice" in the "myOrg" TailScale organization.
